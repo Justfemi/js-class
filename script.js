@@ -48,8 +48,8 @@ let femiData = ["Femi", 20, "Beans", false, 50];
 // ternary operation
 // {condition ? 'true' : 'false'}
 
-let age = 20;
-{(age > 18) ? console.log("welcome to the bar") : console.log("gerrout of here")}
+// let age = 20;
+// {(age > 18) ? console.log("welcome to the bar") : console.log("gerrout of here")}
 
 // for (initialization, condition, increment) {b
     //code to be executed
@@ -129,3 +129,19 @@ while (numbers > 0) {
     count++;
 }
 console.log(count);
+// while (number <= 30) {
+//     if (number % 3 == 0) {
+//         console.log(number);
+//     }
+//     number++;
+// }
+
+for (let x = 1; x <=3; x++){
+    for(let y = 1; y <= 3; y++) {
+        console.log(x, y);
+    }
+    console.log("exited inner loop");
+}
+
+console.log ("exited outer loop");
+
