@@ -108,3 +108,23 @@ let age = 20;
 //     }
 //     number++;
 // }
+
+Exercise 9:
+let number = 10;
+let factorial = 1;
+
+while (number >= 1) {
+    factorial *= number
+    number--
+}
+ console.log(`The factorial is ${factorial}`);
+
+Exercise 10:
+let numbers = 12345;
+let count = 0;
+
+while (numbers > 0) {
+    numbers = Math.floor(numbers/10);
+    count++;
+}
+console.log(count);
