@@ -51,7 +51,7 @@ let femiData = ["Femi", 20, "Beans", false, 50];
 let age = 20;
 {(age > 18) ? console.log("welcome to the bar") : console.log("gerrout of here")}
 
-// for (initialization, condition, increment) {
+// for (initialization, condition, increment) {b
     //code to be executed
 // }
 
@@ -63,55 +63,56 @@ let age = 20;
 // let countdown = 3;
 
 // Exercise 4
-// let i = 1;
+let w = 1;
 
-// while (i < 15) {
-//     if (i % 2 == 1){
-//         console.log(`${i} is an odd number`);
-//     } 
-//     i++;
-// }
+while (w < 15) {
+    if (w % 2 == 1){
+        console.log(`${w} is an odd number`);
+    } 
+    w++;
+}
 
 // Exercise 5
-// let i = 1;
-// let sum = 0;
+let v = 1;
+let sum = 0;
 
-// while (i <= 10) {
-//     sum += i;
-//     i++;
-// }
-// console.log(`The sum of 1-10 is ${sum}`);
+whvle (v <= 10) {
+    sum += v;
+    v++;
+}
+console.log(`The sum of 1-10 is ${sum}`);
 
 //Exercise 6
-// let i = 1;
+let i = 1;
 
-// while (i <= 12) {
-//     console.log(`5 x ${i} = ${5 * i}`)
-//     i++;
-// }
+while (i <= 12) {
+    console.log(`5 x ${i} = ${5 * i}`)
+    i++;
+}
 
 //Exercise 7
-// let countdown = 5;
+let countdown = 5;
 
-// while (countdown >= 1) {
-//     console.log(countdown);
-//     countdown--;
-// }
-// console.log("Blast off!");
+while (countdown >= 1) {
+    console.log(countdown);
+    countdown--;
+}
+console.log("Blast off!");
 
 //Exercise 8
-// let number = 1;
+let n = 1;
 
-// while (number <= 30) {
-//     if (number % 3 == 0) {
-//         console.log(number);
-//     }
-//     number++;
-// }
+while (n <= 30) {
+    if (n % 3 == 0) {
+        console.log(n);
+    }
+    n++;
+}
 
-Exercise 9:
+// Exercise 9:
 let number = 10;
 let factorial = 1;
+
 
 while (number >= 1) {
     factorial *= number
@@ -119,7 +120,7 @@ while (number >= 1) {
 }
  console.log(`The factorial is ${factorial}`);
 
-Exercise 10:
+// Exercise 10:
 let numbers = 12345;
 let count = 0;
 
